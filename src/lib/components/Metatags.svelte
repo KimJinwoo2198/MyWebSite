@@ -12,7 +12,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', '${google_analytics}');
+      gtag('config', '${google_analytics}', { 'cookie_flags': 'SameSite=None;Secure' });
     `;
     document.head.appendChild(script);
   });
@@ -29,6 +29,8 @@
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <!-- <meta property="og:image" content={image} /> -->
-  <script defer src="https://www.googletagmanager.com/gtag/js?id={google_analytics}"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id={google_analytics}&cookieFlags=SameSite=None;Secure"></script>
+
   <link rel="icon" href="https://kimjinwoo.me/favicon.ico" type="image/x-icon"/>
 </svelte:head>
