@@ -2,7 +2,7 @@
   import './styles.scss'
   import { onMount } from 'svelte';
 
-  import { book, open_book, arrow, emoji, artist, gear, school, brain, oldsites, cs50, battlebot, automsg, devbench, github, linkedin, instagram, twitter, discord } from '$lib/images/images';
+  import { book, open_book, arrow, emoji, artist, gear, school, brain, oldsites, cs50, battlebot, automsg, devbench, github, linkedin, instagram, twitter, discord, blog } from '$lib/images/images';
   
   import Metatags from '$lib/components/Metatags.svelte';
   
@@ -43,7 +43,7 @@
   onMount(() => {
     if (window.innerWidth >= 900) { // Only use scrollSmoother if on a large enough page
       smoother = ScrollSmoother.create({
-        smooth: 5,
+        smooth: 3,
         effects: true,
       });
     }
@@ -209,6 +209,7 @@
     <a href="https://instagram.com/kimjinwoo07" target="_blank" rel="noreferrer" aria-label="Go to Jinwoo's Instagram"><img src={instagram} alt="instagram logo"/></a>
     <a href="https://discord.com/users/896570484588703744" target="_blank" rel="noreferrer" aria-label="Go to Jinwoo's Discord"><img src={discord} alt="discord logo"/></a>
     <a href="https://linkedin.com/in/kimjinwoo07" target="_blank" rel="noreferrer" aria-label="Go to Jinwoo's LinkedIn"><img src={linkedin} alt="linkedin logo"/></a>
+    <a href="https://blog.kimjinwoo.me/" target="_blank" rel="noreferrer" aria-label="Go to Jinwoo's Blog"><img src={blog} alt="blog logo"/></a>
   </div>
 </nav>
 
@@ -218,17 +219,11 @@
       <span class="wrapper innovate-wrapper">
         <span id="stories" class="highlight content">
           <span class="text">Innovate</span>
-          <!-- <img src={book} alt="book emoji" class="emoji" aria-hidden="true"/>
-          <img src={open_book} alt="open book emoji" class="emoji" aria-hidden="true"/>
-          <img src={book} alt="book emoji" class="emoji" aria-hidden="true"/> -->
         </span> 
       </span>
       <span class="wrapper implement-wrapper">
         <span id="stories" class="highlight content">
           <span class="text">Implement</span>
-          <!-- <img src={book} alt="book emoji" class="emoji" aria-hidden="true"/>
-          <img src={open_book} alt="open book emoji" class="emoji" aria-hidden="true"/>
-          <img src={book} alt="book emoji" class="emoji" aria-hidden="true"/> -->
         </span> 
       </span>
       <span class="wrapper inspire-wrapper">

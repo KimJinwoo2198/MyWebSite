@@ -22,8 +22,9 @@ import instagram from './icons/instagramWhite.svg';
 import twitter from './icons/twitterWhite.svg';
 import discord from './icons/discordWhite.svg';
 import linkedin from './icons/linkedinWhite.svg';
+import blog from './icons/blogWhite.svg';
 
-export {arrow, github, instagram, twitter, discord, linkedin};
+export {arrow, github, instagram, twitter, discord, linkedin, blog};
 
 // About Section Icons
 import artist from './emoji/artist_flat_default.svg';
