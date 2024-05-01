@@ -46,6 +46,9 @@ import site3 from './oldsites/oldsite3.jpg';
 import site4 from './oldsites/oldsite4.jpg';
 import site5 from './oldsites/oldsite5.jpg';
 import site6 from './oldsites/oldsite6.jpg';
+import site7 from './oldsites/oldsite7.jpg';
+import site8 from './oldsites/oldsite8.jpg';
+import site9 from './oldsites/oldsite9.jpg';
 // import site7 from './oldsites/oldsite7.webp';
 // import site8 from './oldsites/oldsite8.webp';
 // import site9 from './oldsites/oldsite9.webp';
@@ -75,18 +78,18 @@ export const oldsites = [
     image: site6,
     number: 6,
   }, 
-  // {
-  //   image: site7,
-  //   number: 7,
-  // }, 
-  // {
-  //   image: site8,
-  //   number: 8,
-  // },
-  // {
-  //   image: site9,
-  //   number: 9,
-  // },
+  {
+    image: site7,
+    number: 7,
+  }, 
+  {
+    image: site8,
+    number: 8,
+  },
+  {
+    image: site9,
+    number: 9,
+  },
 ];
 
 // Projects Screenshots
