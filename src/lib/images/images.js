@@ -49,6 +49,7 @@ import site6 from './oldsites/oldsite6.jpg';
 import site7 from './oldsites/oldsite7.jpg';
 import site8 from './oldsites/oldsite8.jpg';
 import site9 from './oldsites/oldsite9.jpg';
+import site10 from './oldsites/oldsite10.jpg';
 // import site7 from './oldsites/oldsite7.webp';
 // import site8 from './oldsites/oldsite8.webp';
 // import site9 from './oldsites/oldsite9.webp';
@@ -89,6 +90,10 @@ export const oldsites = [
   {
     image: site9,
     number: 9,
+  },
+  {
+    image: site10,
+    number: 10,
   },
 ];
 
